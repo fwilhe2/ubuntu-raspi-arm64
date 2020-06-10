@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Run a one-line script
-      run: sudo ./build.sh
+    - run: sudo ./build.sh
     - run: find .
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-raspi-image
+        path: ubuntu-18.04-raspberrypi-arm64.img
