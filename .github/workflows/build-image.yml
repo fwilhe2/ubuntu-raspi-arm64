@@ -10,8 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: sudo ./build.sh
-    - run: find .
     - uses: actions/upload-artifact@v2
       with:
         name: my-raspi-image
-        path: ubuntu-18.04-raspberrypi-arm64.img
+        path: ubuntu-20.04-raspberrypi-arm64.img

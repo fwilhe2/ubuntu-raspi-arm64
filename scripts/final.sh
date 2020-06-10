@@ -14,6 +14,6 @@ umount $whereisme/rootfs/boot
 losetup -d /dev/loop6
 losetup -d /dev/loop7
 rm -rvf $whereisme/rootfs
-rm -f $whereisme/ubuntu-18.04-raspberrypi-arm64.img
-mv -v $whereisme/image $whereisme/ubuntu-18.04-raspberrypi-arm64.img
+rm -f $whereisme/ubuntu-20.04-raspberrypi-arm64.img
+mv -v $whereisme/image $whereisme/ubuntu-20.04-raspberrypi-arm64.img
 sync
