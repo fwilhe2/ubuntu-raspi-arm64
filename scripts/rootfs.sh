@@ -9,7 +9,7 @@ then
   exit 1
 fi
 echo "Building root file system..."
-qemu-debootstrap --arch arm64 bionic $whereisme/rootfs $mirrorsite
+qemu-debootstrap --arch arm64 focal $whereisme/rootfs $mirrorsite
 touch $whereisme/rootfs/etc/resolv.conf
 cat /etc/resolv.conf >> $whereisme/rootfs/etc/resolv.conf
 touch $whereisme/rootfs/etc/apt/sources.list
