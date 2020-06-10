@@ -1,11 +1,11 @@
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-updates main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-backports main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-security main restricted universe multiverse
+deb http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal main restricted universe multiverse
+# deb-src http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal main restricted universe multiverse
+deb http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-updates main restricted universe multiverse
+# deb-src http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-updates main restricted universe multiverse
+deb http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-backports main restricted universe multiverse
+# deb-src http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-backports main restricted universe multiverse
+deb http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-security main restricted universe multiverse
+# deb-src http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-security main restricted universe multiverse
 
-# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-proposed main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports/ bionic-proposed main restricted universe multiverse
+# deb http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-proposed main restricted universe multiverse
+# deb-src http://ftp.tu-chemnitz.de/pub/linux/ubuntu-ports/ focal-proposed main restricted universe multiverse
