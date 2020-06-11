@@ -1,4 +1,4 @@
-name: CI
+name: Build Image
 on:
   push:
     branches: [ master ]
@@ -10,8 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run: sudo ./build.sh
-    - run: gzip ubuntu-20.04-raspberrypi-arm64.img
     - uses: actions/upload-artifact@v2
       with:
-        name: my-raspi-image
-        path: ubuntu-20.04-raspberrypi-arm64.img.gz
+        name: ubuntu-20.04-raspberrypi-arm64
+        path: ubuntu-20.04-raspberrypi-arm64.img
