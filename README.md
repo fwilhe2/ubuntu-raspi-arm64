@@ -15,7 +15,7 @@ Introduction
 
 You can build your own raspberrypi system with this script.
 
-This raspi system based on **Ubuntu 29.04**.
+This raspi system based on **Ubuntu 20.04**.
 
 you can get all details about these scripts in ./scripts/readme.md
 
@@ -26,7 +26,7 @@ User: `pi`
 
 Password: `pi`
 
-Apt mirror site: **Tsinghua University TUNA Association's mirror site** (China)
+Apt mirror site: **tu-chemnitz.de mirror site** (Germany)
 
 SSH: **enable** (on port 22)
 
@@ -39,7 +39,7 @@ Desktop environment: **disable**
 Build
 ---
 #### Requirements
-+ Ubuntu 20.04
++ Ubuntu 18.04
 
 The Older verison of Ubuntu and Debian was not tested. I guess that this script would work on these systems.
 
