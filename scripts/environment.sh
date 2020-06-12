@@ -18,7 +18,7 @@ if [ ! -d "$works" ]; then
   mkdir $works
 fi
 if [ ! -d "$linux" ]; then
-  git clone -b rpi-4.14.y --depth 1 https://github.com/raspberrypi/linux.git
+  git clone -b rpi-4.19.y --depth 1 https://github.com/raspberrypi/linux.git
   mv $whereisme/linux $works
 else
   cd $works/linux
